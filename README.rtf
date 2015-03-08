@@ -1,0 +1,53 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl640\sa320
+
+\f0\b\fs54 \cf2 Gene expression preprocessing\
+\pard\pardeftab720\sl560\sa320
+
+\b0\fs32 \cf2 Gene expression processing pipeline used in: Sharma et al., 2012, BMC Genomics 13:351; Tonner et al., 2015, PLOS Genetics, 
+\f1 \cf0 11(1):e1004912.
+\f0 \cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl560
+\ls1\ilvl0\cf2 {\listtext	\'95	}This repository contains the code necessary to normalize 2-color Agilent gene expression microarray data.\
+{\listtext	\'95	}Example data files from Sharma et al., 2012, are included for demonstration purposes.
+\fs28 \
+\pard\pardeftab720\sl420
+
+\b\fs42 \cf2 \
+\pard\pardeftab720\sl500\sa320
+\cf2 Dependencies\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl560
+\ls2\ilvl0
+\b0\fs32 \cf2 {\listtext	\'95	}R (version 2.15.2):\
+{\listtext	\'95	}limma - {\field{\*\fldinst{HYPERLINK "http://www.bioconductor.org/packages/release/bioc/html/limma.html"}}{\fldrslt http://www.bioconductor.org/packages/release/bioc/html/limma.html}}\
+{\listtext	\'95	}maDB - {\field{\*\fldinst{HYPERLINK "http://www.bioconductor.org/packages//2.7/bioc/html/maDB.html"}}{\fldrslt http://www.bioconductor.org/packages//2.7/bioc/html/maDB.html}}\
+{\listtext	\'95	}RColorBrewer\
+{\listtext	\'95	}yaml\
+{\listtext	\'95	}LaTex\
+{\listtext	\'95	}Sweave \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl560
+\ls2\ilvl0
+\b\fs42 \cf2 \
+\pard\pardeftab720\sl500\sa320
+\cf2 Steps to run pipeline:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl560
+\ls3\ilvl0
+\b0\fs32 \cf2 {\listtext	\'95	}To run the demo, use raw Aglient feature extraction files in the repository folder, 'raw/'\
+{\listtext	\'95	}To run on your own data, download raw data from GEO, create a folder called 'raw/' and unpack into that directory\
+{\listtext	\'95	}To run the demo, use metadata file 'metadata.txt'. To run on your own data, generate a metadata file modeled on the repository metadata example file.\
+{\listtext	\'95	}Run the command 'R CMD Sweave preprocessing.Rnw'\
+\
+\pard\pardeftab720\ri720\sl276\slmult1\sa200
+
+\f1\fs22 \cf0 \
+\
+\
+the pipeline requires R version 2.15.2, LaTeX, and Sweave, all available freely online. }
